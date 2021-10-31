@@ -1,0 +1,32 @@
+{
+  "name": "koa-pretty-logger",
+  "version": "0.0.0",
+  "description": "Pretty logger middleware for Koa.",
+  "author": "Giovanni Moscati <giovannimoscati@gmail.com> (https://github.com/GiovanniMoscati)",
+  "repository": "https://github.com/damianobarbati/envk",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "koa",
+    "logger"
+  ],
+  "scripts": {
+    "eslint": "eslint --ignore-path .gitignore --fix",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && babel index.js --out-dir dist --copy-files"
+  },
+  "exports": {
+    "import": "./index.js",
+    "require": "./dist/index.js"
+  },
+  "dependencies": {
+    "bytes": "^3.1.0",
+    "chalk": "^4.1.2",
+    "humanize-number": "^0.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
