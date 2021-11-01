@@ -27,7 +27,7 @@ npm manifest:
     "version": "0.0.0",
     "description": "Pretty logger middleware for Koa.",
     "author": "Giovanni Moscati <giovannimoscati@gmail.com> (https://github.com/GiovanniMoscati)",
-    "repository": "https://github.com/damianobarbati/envk",
+    "repository": "https://github.com/giovannimoscati/koa-pretty-logger",
     "license": "MIT",
     "main": "index.js",
     "scripts": {
