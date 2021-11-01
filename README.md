@@ -4,10 +4,10 @@ Koa simple middleware for logging the entire HTTP call flow.
 
 * [Installation](#installation)
 * [Usage](#usage)
-    * [Simple Usage](#simple-usages)
+    * [Simple Usage](#simple-usage)
     * [Log with custom fields](#log-with-custom-fields)
-    * [Exclude log](#exlude-log)
-* [Options](#configuration-options)
+    * [Exclude log](#exclude-log)
+* [Options](#options)
 
 ## Installation
 
