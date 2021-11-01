@@ -1,6 +1,6 @@
 {
   "name": "koa-pretty-logger",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pretty logger middleware for Koa.",
   "author": "Giovanni Moscati <giovannimoscati@gmail.com> (https://github.com/GiovanniMoscati)",
   "repository": "https://github.com/damianobarbati/envk",
