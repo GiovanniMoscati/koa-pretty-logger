@@ -13,11 +13,7 @@
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore --fix",
     "clean": "rm -rf dist",
-    "build": "yarn clean && babel index.js --out-dir dist --copy-files"
-  },
-  "exports": {
-    "import": "./index.js",
-    "require": "./dist/index.js"
+    "build": "yarn clean && babel ./src --out-dir dist --copy-files"
   },
   "dependencies": {
     "bytes": "^3.1.0",
