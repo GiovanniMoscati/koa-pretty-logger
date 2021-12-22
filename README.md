@@ -1,4 +1,4 @@
-# koa-pretty-log
+# koa-pretty-logger
 
 Koa simple middleware for logging the entire HTTP call flow.
 
@@ -12,13 +12,13 @@ Koa simple middleware for logging the entire HTTP call flow.
 ## Installation
 
 ```bash
-yarn add koa-pretty-log
+yarn add koa-pretty-logger
 ```
 
 or
 
 ```bash
-npm install koa-pretty-log
+npm install koa-pretty-logger
 ```
 
 ## Usage
