@@ -27,7 +27,7 @@ npm install koa-pretty-logger
 
 ```javascript
 const koa = require('koa');
-const logger = require('koa-pretty-log');
+const logger = require('koa-pretty-logger');
 
 const app = new koa()
 
@@ -38,7 +38,7 @@ Or, if you use ES6 Modules:
 
 ```javascript
 import koa from 'koa';
-import logger from 'koa-pretty-log';
+import logger from 'koa-pretty-logger';
 
 const app = new koa()
 
@@ -81,7 +81,7 @@ response
 
 ```javascript
 import koa from 'koa';
-import logger from 'koa-pretty-log';
+import logger from 'koa-pretty-logger';
 
 const app = new koa()
 
@@ -99,7 +99,7 @@ app.use(
 ### Exclude log
 ```javascript
 import koa from 'koa';
-import logger from 'koa-pretty-log';
+import logger from 'koa-pretty-logger';
 
 const app = new koa()
 
